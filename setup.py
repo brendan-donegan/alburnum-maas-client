@@ -34,6 +34,7 @@ setup(
         "PyYAML >= 3.11",
         "requests >= 2.9.1",
         "terminaltables >= 2.1.0",
+        "Twisted >= 15.5.0",
     },
     test_suite="alburnum.maas",
     tests_require={
@@ -42,7 +43,6 @@ setup(
         "setuptools",
         "testscenarios",
         "testtools",
-        "Twisted",
     },
     description="A client API library specially for MAAS.",
     entry_points={
